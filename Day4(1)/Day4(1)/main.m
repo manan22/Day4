@@ -12,9 +12,14 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+        int count=1;
         
+        while (count<=5)
+        {
+            NSLog(@"%i",count);
+            count++;
+        }
         // insert code here...
-        NSLog(@"Hello, World!");
         
     }
     return 0;
